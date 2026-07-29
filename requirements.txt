@@ -1,0 +1,17 @@
+#Notebook 
+jupyterlab>=4.0,<5
+ipykernel>=6.25,<7
+
+#plotting
+numpy>=1.26,<3
+pandas>=2.0,<3
+scipy>=1.11,<2
+matplotlib>=3.8,<4
+tqdm>=4.66,<5
+
+#model loading, inference, and 4-bit quantization
+torch>=2.2,<3
+transformers>=4.46,<5
+accelerate>=0.26,<2
+bitsandbytes>=0.43,<1
+sentencepiece>=0.2,<1
